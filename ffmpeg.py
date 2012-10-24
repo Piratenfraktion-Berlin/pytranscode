@@ -44,8 +44,9 @@ class audio_settings:
             'acodec': '-acodec',
             'stream_filter': '-absf',
             'format': '-f',
+	    'disablevideo': '-vn',
         }
-        
+       
     def command(self):
         cmd = ''
         for option in self.options.keys():
@@ -191,4 +192,3 @@ class ffmpeg:
         cmd = 'ffmpeg %s%s %s 2> %s' % (defcmd, avcmd, self.output_file, self.logfile)
         
         return cmd
-        

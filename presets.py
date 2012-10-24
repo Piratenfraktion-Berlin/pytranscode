@@ -111,9 +111,15 @@ OWNTUBE_WEBM_AUDIO = {'acodec':'libvorbis',
                   'rate':'128k'}
 
 OWNTUBE_MP3_AUDIO = {'format':'mp3',
-                  'rate':'64k'}
+                  'rate':'64k',
+                  'freq':'44100',
+                  'channels':'2',
+                  'disablevideo':'',}
 
 OWNTUBE_OGG_AUDIO = {'format':'ogg',
-                  'rate':'64k'}
+                  'rate':'64k',
+                  'freq':'44100', 
+                  'channels':'2',
+                  'disablevideo':'',}
 
 OWNTUBE_NULL_VIDEO = {}
