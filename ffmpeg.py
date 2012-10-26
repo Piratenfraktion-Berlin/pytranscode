@@ -189,6 +189,6 @@ class ffmpeg:
                 defcmd += pair
         
         #TODO: The path to ffmpeg may not be clear, set this as a global?
-        cmd = 'ffmpeg %s%s %s 2> %s' % (defcmd, avcmd, self.output_file, self.logfile)
+        cmd = '/usr/local/bin/ffmpeg %s%s %s 2> %s' % (defcmd, avcmd, self.output_file, self.logfile)
         
         return cmd
