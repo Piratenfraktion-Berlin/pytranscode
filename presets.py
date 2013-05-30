@@ -120,6 +120,7 @@ OWNTUBE_OGG_AUDIO = {'format':'ogg',
                   'rate':'64k',
                   'freq':'44100', 
                   'channels':'2',
-                  'disablevideo':'',}
+                  'disablevideo':'',
+                  'acodec':'libvorbis',}
 
 OWNTUBE_NULL_VIDEO = {}
